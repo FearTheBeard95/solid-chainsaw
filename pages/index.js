@@ -70,23 +70,7 @@ export default function Index() {
           <div className='flex flex-wrap items-center'>
             <div className='w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
-                  alt='...'
-                  src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80'
-                  className='w-full align-middle rounded-t-lg'
-                />
                 <blockquote className='relative p-8 mb-4'>
-                  <svg
-                    preserveAspectRatio='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                    viewBox='0 0 583 95'
-                    className='absolute left-0 w-full block h-95-px -top-94-px'
-                  >
-                    <polygon
-                      points='-30,95 583,95 583,65'
-                      className='text-blueGray-700 fill-current'
-                    ></polygon>
-                  </svg>
                   <h4 className='text-xl font-bold text-white'>
                     Welcome to Shack Dwellers Federation of Namibia(SDFN) &
                     Namibia Housing Action Group (NHAG)
