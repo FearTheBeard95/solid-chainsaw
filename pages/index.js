@@ -209,25 +209,6 @@ export default function Index() {
                 realised they can do things for themselves.
               </p>
             </div>
-            <div className='w-full lg:w-3/12 px-4 text-center'>
-              <div className='text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                <i className='fas fa-lightbulb text-xl'></i>
-              </div>
-              <h5 className='text-xl mt-5 font-semibold text-white'>
-                CLIP (Profiling, Enumeration and Mapping)
-              </h5>
-              <p className='mt-2 mb-4 text-blueGray-400'>
-                The Community Land Information Program (CLIP) is a tool to be
-                used by informal settlement residents to better understand their
-                communities, discuss their development priorities and negotiate
-                for better living conditions in settlements. The latest CLIP
-                numbers show that there are 282 informal settlements with
-                228,423 shacks accommodation about 950,000 people in Namibia.
-                This means more than 40% of Namibian’s overall population and
-                around 80% of its urban population is currently living in
-                shacks.
-              </p>
-            </div>
           </div>
         </div>
       </section>

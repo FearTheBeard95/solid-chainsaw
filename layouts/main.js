@@ -5,7 +5,7 @@ import React from 'react';
 import Navbar from '../components/Navbars/IndexNavbar';
 import FooterSmall from '../components/Footers/FooterSmall';
 
-export default function Main({ children, title }) {
+export default function Main({ children, title, subtitle }) {
   return (
     <>
       <Navbar transparent />
@@ -28,6 +28,7 @@ export default function Main({ children, title }) {
               <div className='w-full lg:w-6/12 px-4 ml-auto mr-auto text-center'>
                 <div className='pr-12'>
                   <h1 className='text-white font-semibold text-5xl'>{title}</h1>
+                  <p className='mt-4 text-lg text-blueGray-200'>{subtitle}</p>
                 </div>
               </div>
             </div>
