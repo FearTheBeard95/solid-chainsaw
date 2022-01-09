@@ -2,8 +2,8 @@ import React from 'react';
 
 // components
 
-import Navbar from '../components/Navbars/AuthNavbar.js';
-import FooterSmall from '../components/Footers/FooterSmall.js';
+import Navbar from '../components/Navbars/IndexNavbar';
+import FooterSmall from '../components/Footers/Footer';
 
 export default function Auth({ children }) {
   return (
@@ -14,11 +14,10 @@ export default function Auth({ children }) {
           <div
             className='absolute top-0 w-full h-full bg-blueGray-800 bg-no-repeat bg-full'
             style={{
-              backgroundImage: "url('/img/register_bg_2.png')",
+              backgroundImage: "url('/upgrading.jpeg')",
             }}
           ></div>
           {children}
-          <FooterSmall absolute />
         </section>
       </main>
     </>

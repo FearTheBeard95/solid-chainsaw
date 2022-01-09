@@ -14,7 +14,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/try.jpeg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -43,7 +43,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/learning2.jpeg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -71,7 +71,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/planningStudio.jpeg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -133,7 +133,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/fund.png'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -163,7 +163,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/construction.png'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -194,7 +194,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/5.jpeg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -224,7 +224,7 @@ export default function Actitivies() {
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/covid.jpeg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
