@@ -21,20 +21,16 @@ export default function Index() {
                 Action Group (NHAG)
               </p>
               <div className='mt-12'>
-                <a
-                  href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
-                  target='_blank'
-                  className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
-                >
-                  Be A Volunteer
-                </a>
-                <a
-                  href='https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index'
-                  className='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'
-                  target='_blank'
-                >
-                  Be A Sponsor
-                </a>
+                <Link href='/contact'>
+                  <a className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
+                    Be A Volunteer
+                  </a>
+                </Link>
+                <Link href='/contact'>
+                  <a className='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'>
+                    Be A Sponsor
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
