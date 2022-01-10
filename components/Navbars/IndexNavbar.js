@@ -61,6 +61,7 @@ export default function Navbar(props) {
                   className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
                   href='https://namibia-shackdwellers.blogspot.com/'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   Blog
                 </a>
@@ -72,6 +73,13 @@ export default function Navbar(props) {
                   </a>
                 </Link>
               </li>
+              <li className='flex items-center'>
+                <Link href='/contact'>
+                  <a className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'>
+                    Contact
+                  </a>
+                </Link>
+              </li>
             </ul>
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
               <li className='flex items-center'>
@@ -79,6 +87,7 @@ export default function Navbar(props) {
                   className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
                   href='https://www.facebook.com/sharer/sharer.php?u=https://www.shackdwellersnamibia.com'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='text-blueGray-400 fab fa-facebook text-lg leading-lg ' />
                   <span className='lg:hidden inline-block ml-2'>Share</span>
@@ -90,6 +99,7 @@ export default function Navbar(props) {
                   className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
                   href='https://twitter.com/intent/tweet?url=https://www.shackdwellersnamibia.com'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='text-blueGray-400 fab fa-twitter text-lg leading-lg ' />
                   <span className='lg:hidden inline-block ml-2'>Tweet</span>
