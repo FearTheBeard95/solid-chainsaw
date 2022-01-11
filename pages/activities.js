@@ -1,18 +1,23 @@
 import React from 'react';
 import HeaderStats from '../components/Headers/HeaderStats';
 import Layout from '../layouts/main';
+import Image from 'next/image';
 
 export default function Actitivies() {
   return (
     <Layout title='Activities' subtitle='Our causes'>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
+        <br />
+        <br />
         <div className='container mx-auto px-4'>
           <div className='flex flex-wrap'></div>
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/try.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -41,7 +46,9 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/learning2.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -69,7 +76,9 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/planningStudio.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -101,6 +110,8 @@ export default function Actitivies() {
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
                 <img
+                  width={600}
+                  height={400}
                   alt='...'
                   src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
                   className='w-full align-middle rounded-t-lg'
@@ -131,7 +142,9 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/fund.png'
                   className='w-full align-middle rounded-t-lg'
@@ -161,7 +174,9 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/construction.png'
                   className='w-full align-middle rounded-t-lg'
@@ -192,7 +207,9 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/5.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -222,7 +239,9 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/covid.jpeg'
                   className='w-full align-middle rounded-t-lg'

@@ -1,10 +1,12 @@
 import React from 'react';
-import Layout from '../layouts/main';
+import Layout from '../../layouts/main';
 
 export default function documents() {
   return (
-    <Layout>
+    <Layout title={'Documents'} authenticated={true}>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
+        <br />
+        <br />
         <div className='container mx-auto px-4'>
           <div className='flex flex-wrap'></div>
 

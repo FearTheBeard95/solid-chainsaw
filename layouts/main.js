@@ -1,14 +1,16 @@
 import React from 'react';
+import Link from 'next/link';
 
 // components
 
 import Navbar from '../components/Navbars/IndexNavbar';
 import FooterSmall from '../components/Footers/FooterSmall';
+import Modal from '../components/modal';
 
-export default function Main({ children, title, subtitle }) {
+export default function Main({ children, title, subtitle, authenticated }) {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main>
         <div className='relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75'>
           <div
@@ -28,6 +30,18 @@ export default function Main({ children, title, subtitle }) {
                 <div className='pr-12'>
                   <h1 className='text-white font-semibold text-5xl'>{title}</h1>
                   <p className='mt-4 text-lg text-blueGray-200'>{subtitle}</p>
+                  {authenticated && (
+                    <Link href='/documents/upload'>
+                      <a>
+                        <button
+                          className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
+                          type='button'
+                        >
+                          Upload
+                        </button>
+                      </a>
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>

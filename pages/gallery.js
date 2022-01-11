@@ -5,6 +5,8 @@ export default function gallery() {
   return (
     <Layout>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
+        <br />
+        <br />
         <div className='container mx-auto px-4'>
           <div className='flex flex-wrap'></div>
 

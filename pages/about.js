@@ -1,14 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import Layout from '../layouts/main';
+import Image from 'next/image';
 
 export default function Landing() {
   return (
     <Layout title='About Us'>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
+        <br />
+        <br />
         <div className='container mx-auto px-4'>
           <div className='flex flex-wrap'></div>
-
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-5/12 px-4 mr-auto ml-auto'>
               <h3 className='text-3xl mb-2 font-semibold leading-normal'>
@@ -24,7 +26,9 @@ export default function Landing() {
 
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/try.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -39,7 +43,9 @@ export default function Landing() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/learning2.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -90,7 +96,9 @@ export default function Landing() {
 
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/upgrading.jpeg'
                   className='w-full align-middle rounded-t-lg'
@@ -105,7 +113,9 @@ export default function Landing() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
+                  width={600}
+                  height={400}
                   alt='...'
                   src='/kids.jpeg'
                   className='w-full align-middle rounded-t-lg'
