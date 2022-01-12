@@ -1,24 +1,50 @@
 import React from 'react';
 import Layout from '../layouts/main';
+import Link from 'next/link';
+import Image from 'next/image';
+import { getGallery } from '../lib/gallery';
 
-export default function gallery() {
+export default function gallery({ gallery }) {
   return (
-    <Layout>
+    <Layout title={'Gallery'}>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
         <br />
         <br />
-        <div className='container mx-auto px-4'>
-          <div className='flex flex-wrap'></div>
-
-          <div className='flex flex-wrap items-center mt-32'>
-            <div className='w-full md:w-5/12 px-4 mr-auto ml-auto'>
-              <h1 className='text-3xl mb-2 font-semibold leading-normal'>
-                Under development
-              </h1>
+        <div className='container mx-auto'>
+          <div className='justify-center flex flex-wrap'>
+            <div className='w-full lg:w-12/12 px-4  -mt-24'>
+              <div className='flex flex-wrap'>
+                {gallery.map(({ image }) => (
+                  <div className='w-full lg:w-4/12 px-4' key={image.name}>
+                    <Link href={image.link}>
+                      <a target={'_blank'}>
+                        <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
+                          <Image
+                            alt='...'
+                            className='align-middle border-none max-w-full h-auto rounded-lg'
+                            src={image.link}
+                            height={450}
+                            width={600}
+                          />
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </section>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const gallery = await getGallery();
+  return {
+    props: {
+      gallery,
+    },
+  };
 }

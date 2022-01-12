@@ -13,7 +13,7 @@ export default function documents({ documents }) {
           <div className='flex flex-wrap'></div>
 
           <div className='flex flex-wrap items-start justify-center mt-32'>
-            <div className='w-full md:w-5/12 px-4 mr-auto ml-auto'>
+            <div className='w-full  px-4 mr-auto ml-auto'>
               <ul>
                 {documents.map((doc) => (
                   <li key={doc.documents.name}>
@@ -22,9 +22,11 @@ export default function documents({ documents }) {
                       {'  '}
                       <Link href={doc.documents.link} key={doc.documents.name}>
                         <a target={'_blank'}>
-                          <i className='fas fa-download text-blueGray-800'></i>
+                          <i className='fas fa-download p-1'></i>
                         </a>
                       </Link>
+                      {'  '}
+                      <i className='fas fa-trash'></i>
                     </h4>
                     <hr className='my-6 border-blueGray-300' />
                   </li>

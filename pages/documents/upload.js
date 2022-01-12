@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../../layouts/main';
 import axios from 'axios';
+import Router from 'next/router';
 
 export default class upload extends Component {
   state = {
@@ -17,7 +18,9 @@ export default class upload extends Component {
     e.preventDefault();
     const formData = new FormData();
     formData.append('document', this.state.document);
-    axios.post('/api/upload', formData, {}).then((res) => {});
+    axios.post('/api/upload', formData, {}).then((res) => {
+      Router.push('/documents');
+    });
   };
 
   render() {
