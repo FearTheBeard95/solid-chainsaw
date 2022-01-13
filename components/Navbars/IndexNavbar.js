@@ -1,11 +1,29 @@
 import React from 'react';
 import Link from 'next/link';
+import { userService } from '../../services/user.service';
 // components
 
 import IndexDropdown from '../Dropdowns/IndexDropdown';
 
-export default function Navbar(props) {
+export default function Navbar({ authenticated }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [authorized, setAuthorized] = React.useState(false);
+
+  React.useEffect(() => {
+    // run auth check on initial load
+    authCheck();
+  }, []);
+
+  function authCheck() {
+    if (!userService.userValue) {
+      setAuthorized(false);
+    } else {
+      setAuthorized(true);
+    }
+  }
+  const onLogOut = () => {
+    return userService.logout();
+  };
   return (
     <>
       <nav className='top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow'>
@@ -106,16 +124,26 @@ export default function Navbar(props) {
                 </a>
               </li>
               <li className='flex items-center'>
-                <Link href='/auth/login'>
-                  <a>
-                    <button
-                      className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
-                      type='button'
-                    >
-                      Member Login
-                    </button>
-                  </a>
-                </Link>
+                {authorized ? (
+                  <button
+                    className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
+                    type='button'
+                    onClick={() => onLogOut()}
+                  >
+                    Logout
+                  </button>
+                ) : (
+                  <Link href='/auth/login'>
+                    <a>
+                      <button
+                        className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
+                        type='button'
+                      >
+                        Member Login
+                      </button>
+                    </a>
+                  </Link>
+                )}
               </li>
             </ul>
           </div>

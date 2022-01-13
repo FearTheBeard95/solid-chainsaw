@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import Layout from '../../layouts/main';
 import axios from 'axios';
 import Router from 'next/router';
+import { userService } from '../../services/user.service';
 
 export default class upload extends Component {
   state = {
     document: '',
+    authorized: false,
   };
+
+  componentDidMount() {
+    this.authCheck();
+  }
 
   onChangeFile = (e) => {
     this.setState({
@@ -22,6 +28,19 @@ export default class upload extends Component {
       Router.push('/documents');
     });
   };
+
+  authCheck() {
+    if (!userService.userValue) {
+      this.setState({
+        authorized: false,
+      });
+      Router.push('/auth/login');
+    } else {
+      this.setState({
+        authorized: true,
+      });
+    }
+  }
 
   render() {
     return (

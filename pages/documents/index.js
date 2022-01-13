@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../../layouts/main';
 import { getDocuments } from '../../lib/documents';
 
-export default function documents({ documents }) {
+export default function Documents({ documents }) {
   return (
     <Layout title={'Documents'} authenticated={true}>
       <section className='pb-20 bg-blueGray-200 -mt-24'>

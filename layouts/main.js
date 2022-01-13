@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { userService } from '../services/user.service';
 
 // components
 
@@ -8,6 +9,20 @@ import FooterSmall from '../components/Footers/FooterSmall';
 import Modal from '../components/modal';
 
 export default function Main({ children, title, subtitle, authenticated }) {
+  const [authorized, setAuthorized] = React.useState(false);
+
+  React.useEffect(() => {
+    // run auth check on initial load
+    authCheck();
+  }, []);
+
+  function authCheck() {
+    if (!userService.userValue) {
+      setAuthorized(false);
+    } else {
+      setAuthorized(true);
+    }
+  }
   return (
     <>
       <Navbar />
@@ -30,18 +45,19 @@ export default function Main({ children, title, subtitle, authenticated }) {
                 <div className='pr-12'>
                   <h1 className='text-white font-semibold text-5xl'>{title}</h1>
                   <p className='mt-4 text-lg text-blueGray-200'>{subtitle}</p>
-                  {authenticated && (
-                    <Link href='/documents/upload'>
-                      <a>
-                        <button
-                          className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
-                          type='button'
-                        >
-                          Upload
-                        </button>
-                      </a>
-                    </Link>
-                  )}
+                  {authenticated &&
+                    (authorized ? (
+                      <Link href='/documents/upload'>
+                        <a>
+                          <button
+                            className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
+                            type='button'
+                          >
+                            Upload
+                          </button>
+                        </a>
+                      </Link>
+                    ) : null)}
                 </div>
               </div>
             </div>
