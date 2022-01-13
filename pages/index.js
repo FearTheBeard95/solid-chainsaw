@@ -10,13 +10,24 @@ export default function Index() {
     <>
       <IndexNavbar fixed />
       <section className='header relative pt-16 items-center flex h-screen max-h-860-px'>
-        <div className='container mx-auto items-center flex flex-wrap'>
+        <div
+          className='absolute top-0 w-full h-full bg-center bg-cover'
+          style={{
+            backgroundImage: "url('/upgrading.jpeg')",
+          }}
+        >
+          <span
+            id='blackOverlay'
+            className='w-full h-full absolute opacity-50 bg-black'
+          ></span>
+        </div>
+        <div className='container mx-auto items-center flex flex-wrap relative'>
           <div className='w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4'>
             <div className='pt-32 sm:pt-0'>
-              <h2 className='font-semibold text-4xl text-blueGray-600'>
+              <h2 className='font-semibold text-4xl text-blueGray-100'>
                 Improving the lives of Poor People in Namibia.
               </h2>
-              <p className='mt-4 text-lg leading-relaxed text-blueGray-500'>
+              <p className='mt-4 text-lg leading-relaxed text-blueGray-100'>
                 Shack Dwellers Federation of Namibia(SDFN) & Namibia Housing
                 Action Group (NHAG)
               </p>
@@ -161,9 +172,12 @@ export default function Index() {
           <div className='flex flex-wrap text-center justify-center'>
             <div className='w-full lg:w-6/12 px-4'>
               <h2 className='text-4xl font-semibold text-white'>Our work</h2>
-              <p className='text-lg leading-relaxed mt-4 mb-4 text-blueGray-400'>
-                Some of our causes
-              </p>
+              <br />
+              <Link href='/activities'>
+                <a className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
+                  View All
+                </a>
+              </Link>
             </div>
           </div>
           <div className='flex flex-wrap mt-12 justify-center'>

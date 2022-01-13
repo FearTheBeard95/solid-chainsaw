@@ -17,6 +17,11 @@ export default function Auth({ children }) {
               backgroundImage: "url('/upgrading.jpeg')",
             }}
           ></div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           {children}
         </section>
       </main>
