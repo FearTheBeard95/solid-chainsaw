@@ -6,7 +6,6 @@ import { userService } from '../services/user.service';
 
 import Navbar from '../components/Navbars/IndexNavbar';
 import FooterSmall from '../components/Footers/FooterSmall';
-import Modal from '../components/modal';
 
 export default function Main({ children, title, subtitle, authenticated }) {
   const [authorized, setAuthorized] = React.useState(false);

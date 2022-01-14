@@ -36,7 +36,6 @@ export default class Login extends Component {
       .login(username, password)
       .then(() => {
         const returnUrl = Router.query.returnUrl || '/';
-
         Router.push('/');
       })
       .catch((error) => {
