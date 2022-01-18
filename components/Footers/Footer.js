@@ -37,13 +37,25 @@ export default function Footer() {
                   className='bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
                   type='button'
                 >
-                  <i className='fab fa-twitter'></i>
+                  <a
+                    href='https://twitter.com/shack_dwellers'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
+                    <i className='fab fa-twitter'></i>
+                  </a>
                 </button>
                 <button
                   className='bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
                   type='button'
                 >
-                  <i className='fab fa-facebook-square'></i>
+                  <a
+                    href='https://www.facebook.com/Shack.Dwellers/'
+                    target={'_blank'}
+                    rel='noreferrer'
+                  >
+                    <i className='fab fa-facebook-square'></i>
+                  </a>
                 </button>
               </div>
             </div>
@@ -110,7 +122,10 @@ export default function Footer() {
           <div className='flex flex-wrap items-center md:justify-between justify-center'>
             <div className='w-full md:w-4/12 px-4 mx-auto text-center'>
               <div className='text-sm text-blueGray-500 font-semibold py-1'>
-                Copyright © {new Date().getFullYear()} Shack Dwellas{' '}
+                Copyright © {new Date().getFullYear()} Shack Dwellers{' '}
+              </div>
+              <div className='text-sm text-blueGray-500 font-semibold py-1'>
+                Developed by Carlos Sibalatani 🚀{' '}
               </div>
             </div>
           </div>

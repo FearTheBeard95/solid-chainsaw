@@ -87,7 +87,7 @@ export default function Actitivies() {
             </div>
             <div className='w-full md:w-5/12 px-4 mr-auto ml-auto'>
               <h3 className='text-3xl mb-2 font-semibold leading-normal'>
-                2. CLIP (Profiling, Enumeration and Mapping)
+                3. CLIP (Profiling, Enumeration and Mapping)
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
                 The Community Land Information Program (CLIP) is a tool to be
@@ -109,11 +109,11 @@ export default function Actitivies() {
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
-                <img
+                <Image
                   width={600}
                   height={400}
                   alt='...'
-                  src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
+                  src='/upgrading.jpeg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -156,11 +156,11 @@ export default function Actitivies() {
                 5. The Twahangana Fund
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
-                Since 1995 the Twahangana Fund channelled a bit over N$ 180
-                million to the poor of Namibia. This community-managed revolving
-                fund provides micro loans to the members of SDFN savings groups
-                for land acquisition, servicing of land and house construction.
-                This fund serves as a tool for the very poor to access financial
+                Since 1995 the Twahangana Fund channeled N$ 231.52 million to
+                the poor of Namibia. This community-managed revolving fund
+                provides micro loans to the members of SDFN savings groups for
+                land acquisition, servicing of land and house construction. This
+                fund serves as a tool for the very poor to access financial
                 support in a way that is not supported by official banking
                 instruments. Communities, the Government of Namibia and private
                 sector are contributing to the Twahangana Fund.
@@ -188,15 +188,12 @@ export default function Actitivies() {
                 6. House Construction and Services
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
-                The Community Land Information Program (CLIP) is a tool to be
-                used by informal settlement residents to better understand their
-                communities, discuss their development priorities and negotiate
-                for better living conditions in settlements. The latest CLIP
-                numbers show that there are 282 informal settlements with
-                228,423 shacks accommodation about 950,000 people in Namibia.
-                This means more than 40% of Namibian’s overall population and
-                around 80% of its urban population is currently living in
-                shacks.
+                6,234 houses have been completed by the members themselves.
+                Members usually build two-room houses, comprising 34 square
+                meters at a cost of about N$1,060 per square meter. They also
+                install their water and sewer services when they get blocks of
+                land. The development is done incrementally, depending on the
+                household’s affordability.
               </p>
             </div>
           </div>
@@ -225,10 +222,10 @@ export default function Actitivies() {
                 (Germany), GIZ (Germany) and the Shack/Slum Dwellers
                 International. Funds for the Twahangana Fund are contributed by
                 the Ministry of Urban and Rural Development (MURD) as well as
-                the private sector which include the Buy-a-Brick Initiative of
-                Standard Bank Namibia - to which MTC and Huawei distributed
-                significantly, the First National Bank of Namibia, the Harold
-                Pupkewitz Foundation, Ohorongo Cement, Neo Paints and B2Gold.
+                the private sector which includes the Buy-a-Brick Initiative of
+                Standard Bank Namibia, MTC/Huawei, Office of the First Lady,
+                FirstRand Namibia Foundation through RMB Namibia, the Pupkewitz
+                Foundation, Ohorongo Cement, Neo Paints, B2Gold.
               </p>
             </div>
           </div>
@@ -253,16 +250,22 @@ export default function Actitivies() {
                 8. Responses to COVID-19
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
-                When the COVID-19 pandemic started in Namibia in March 2020 SDFN
-                and NHAG looked at it as a serious issue that needed to be
-                addressed to make sure SDFN Members and communities of informal
-                settlements are well informed. With support from NHAG, SDFN
-                requested trainings from the Ministry of Health & Social
-                Services in April 2020. Twenty SDFN members were trained to
-                educate communities about COVID-19 symptoms and how they can
-                protect themselves from the virus. SDFN/NHAG have developed
-                pamphlets and fact sheets being distributed in various local
-                languages
+                Members of the Shack Dwellers Federation of Namibia (SDFN),
+                especially SDFN youth members, successfully started backyard
+                gardens next to their housing/shacks during the beginning of the
+                COVID-19 pandemic. In most of these backyard gardens, they grow
+                their own vegetables all year round - mainly spinach, swiss
+                chard, beetroot, carrots, peppers, and tomatoes. Through
+                example, these gardens spread quickly as a very feasible
+                solution to overcome some of the challenges of the pandemic.
+                Some of the gardeners are even able to sell some of their
+                vegetables within their community or started small businesses to
+                sell seedlings and small portions of seeds. At a feedback
+                meeting in September 2021, the gardeners told NHAG that they are
+                eating much more vegetables since they have the gardens and that
+                it is a good feeling to always have food available. By September
+                2021 around ???? small backyard gardens had been created in many
+                informal settlements in cities like Windhoek, ??????
               </p>
             </div>
           </div>

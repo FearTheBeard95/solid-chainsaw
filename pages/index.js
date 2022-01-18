@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import Link from 'next/link';
-
+import Image from 'next/image';
 import IndexNavbar from '../components/Navbars/IndexNavbar.js';
 import Footer from '../components/Footers/Footer';
 
@@ -13,7 +13,7 @@ export default function Index() {
         <div
           className='absolute top-0 w-full h-full bg-center bg-cover'
           style={{
-            backgroundImage: "url('/upgrading.jpeg')",
+            backgroundImage: "url('/coverpage.png')",
           }}
         >
           <span
@@ -31,18 +31,6 @@ export default function Index() {
                 Shack Dwellers Federation of Namibia(SDFN) & Namibia Housing
                 Action Group (NHAG)
               </p>
-              <div className='mt-12'>
-                <Link href='/contact'>
-                  <a className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
-                    Be A Volunteer
-                  </a>
-                </Link>
-                <Link href='/contact'>
-                  <a className='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'>
-                    Be A Sponsor
-                  </a>
-                </Link>
-              </div>
             </div>
           </div>
         </div>
@@ -72,6 +60,13 @@ export default function Index() {
           <div className='flex flex-wrap items-center'>
             <div className='w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32'>
               <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+                <Image
+                  alt='...'
+                  src='/logo.jpg'
+                  height={300}
+                  width={100}
+                  className='w-full align-middle rounded-t-lg'
+                />
                 <blockquote className='relative p-8 mb-4'>
                   <h4 className='text-xl font-bold text-white'>
                     Welcome to Shack Dwellers Federation of Namibia(SDFN) &
@@ -254,13 +249,11 @@ export default function Index() {
                 below to contact us.
               </p>
               <div className='sm:block flex flex-col mt-10'>
-                <a
-                  href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
-                  target='_blank'
-                  className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
-                >
-                  Contact
-                </a>
+                <Link href={'/contact'}>
+                  <a className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
+                    Contact
+                  </a>
+                </Link>
               </div>
               <div className='text-center mt-16'></div>
             </div>

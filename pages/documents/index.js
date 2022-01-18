@@ -16,20 +16,19 @@ export default function Documents({ documents }) {
             <div className='w-full  px-4 mr-auto ml-auto'>
               <ul>
                 {documents.map((doc) => (
-                  <li key={doc.documents.name}>
-                    <h4 className='text-3xl font-normal leading-normal mt-0 mb-2 text-blueGray-800'>
-                      {doc.documents.name}
-                      {'  '}
-                      <Link href={doc.documents.link} key={doc.documents.name}>
-                        <a target={'_blank'}>
+                  <Link href={doc.documents.link} key={doc.documents.name}>
+                    <a target={'_blank'}>
+                      <li>
+                        <h4 className='text-3xl font-normal leading-normal mt-0 mb-2 text-blueGray-800'>
+                          {doc.documents.name}
+                          {'  '}
                           <i className='fas fa-download p-1'></i>
-                        </a>
-                      </Link>
-                      {'  '}
-                      <i className='fas fa-trash'></i>
-                    </h4>
-                    <hr className='my-6 border-blueGray-300' />
-                  </li>
+                          {'  '}
+                        </h4>
+                        <hr className='my-6 border-blueGray-300' />
+                      </li>
+                    </a>
+                  </Link>
                 ))}
               </ul>
             </div>

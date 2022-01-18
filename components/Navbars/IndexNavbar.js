@@ -75,6 +75,23 @@ export default function Navbar({ authenticated }) {
                 </Link>
               </li>
               <li className='flex items-center'>
+                <Link href='/partners'>
+                  <a className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'>
+                    Partners
+                  </a>
+                </Link>
+              </li>
+              <li className='flex items-center'>
+                <a
+                  className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
+                  href='https://sdinet.org'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  SDI
+                </a>
+              </li>
+              <li className='flex items-center'>
                 <a
                   className='hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
                   href='https://namibia-shackdwellers.blogspot.com/'

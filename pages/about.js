@@ -30,7 +30,7 @@ export default function Landing() {
                   width={600}
                   height={400}
                   alt='...'
-                  src='/try.jpeg'
+                  src='/logo.jpg'
                   className='w-full align-middle rounded-t-lg'
                 />
               </div>
@@ -135,8 +135,9 @@ export default function Landing() {
                 Shack Dwellers Federation with technical- and capacity building:
                 Standard Bank of Namibia’s through ist Buy-a-Brick Initiative;
                 MTC and Huawei contributing significantly to the Buy-a-Brick
-                Initiative; First National Bank of Namibia; The Harold Pupkewitz
-                Foundation; Ohorongo Cement; Neo Paints; B2Gold (Otjikoto Mine).
+                Initiative; FirstRand Namibia Foundation through RMB Namibia;
+                The Harold Pupkewitz Foundation; Ohorongo Cement; Neo Paints;
+                B2Gold (Otjikoto Mine).
               </p>
             </div>
           </div>
