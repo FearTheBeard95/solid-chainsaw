@@ -30,7 +30,7 @@ export default function Main({ children, title, subtitle, authenticated }) {
           <div
             className='absolute top-0 w-full h-full bg-center bg-cover'
             style={{
-              backgroundImage: "url('/coverpage.jpg')",
+              backgroundImage: "url('/logo.jpg')",
             }}
           >
             <span
