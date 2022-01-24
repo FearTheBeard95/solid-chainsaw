@@ -6,7 +6,7 @@ import { getPartners } from '../lib/partners';
 
 export default function Partners({ partners }) {
   return (
-    <Layout title={'Our Partners'}>
+    <Layout title={'Our Partners'} image={'/gallery/9.jpg'}>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
         <br />
         <br />

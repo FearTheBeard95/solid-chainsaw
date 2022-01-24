@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Landing() {
   return (
-    <Layout title='About Us'>
+    <Layout title='About Us' image='/gallery/upgrading2.jpg'>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
         <br />
         <br />

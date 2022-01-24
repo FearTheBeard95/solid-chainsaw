@@ -15,12 +15,7 @@ export default function Index() {
           style={{
             backgroundImage: "url('/coverpage.png')",
           }}
-        >
-          <span
-            id='blackOverlay'
-            className='w-full h-full absolute opacity-50 bg-black'
-          ></span>
-        </div>
+        ></div>
         <div className='container mx-auto items-center flex flex-wrap relative'>
           <div className='w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4'>
             <div className='pt-32 sm:pt-0'>
@@ -63,8 +58,8 @@ export default function Index() {
                 <Image
                   alt='...'
                   src='/logo.jpg'
-                  height={300}
-                  width={100}
+                  height={1000}
+                  width={1500}
                   className='w-full align-middle rounded-t-lg'
                 />
                 <blockquote className='relative p-8 mb-4'>
@@ -133,6 +128,30 @@ export default function Index() {
                         The Federation facilitates and advocates for change for
                         those excluded from commercial housing and financial
                         processes, using a community-driven approach.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className='w-full md:w-12/12 px-4'>
+                  <div className='relative flex flex-col min-w-0 mt-4'>
+                    <div className='px-4 py-5 flex-auto'>
+                      <div className='text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'>
+                        <i className='fas fa-newspaper'></i>
+                      </div>
+                      <h6 className='text-xl mb-1 font-semibold'>SDFN Youth</h6>
+                      <p className='mb-7 text-blueGray-500'>
+                        Namibia has one of the youngest and fastest-growing
+                        populations in southern Africa. In 2018 the median age
+                        in Namibia was 21.3 years. The youth unemployment rate
+                        in Namibia continues to increase and reached an all-time
+                        high of 46.10% in 2018. Youth empowerment in Namibia is
+                        thus crucial for the sustainable development of the
+                        country. The youth is very involved in the Community
+                        Land Information Program (CLIP) to collect data towards
+                        scaling up informal settlement upgrading. They are very
+                        active and visible in fundraising activities, to sustain
+                        themselves as an organization, to pay tuition fees and
+                        to do youth projects.
                       </p>
                     </div>
                   </div>
@@ -208,54 +227,6 @@ export default function Index() {
                 and most importantly communities in informal settlements have
                 realised they can do things for themselves.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <br />
-      <br />
-      <section className='pb-16 bg-blueGray-200 relative pt-32'>
-        <div
-          className='-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20'
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <svg
-            className='absolute bottom-0 overflow-hidden'
-            xmlns='http://www.w3.org/2000/svg'
-            preserveAspectRatio='none'
-            version='1.1'
-            viewBox='0 0 2560 100'
-            x='0'
-            y='0'
-          >
-            <polygon
-              className='text-blueGray-200 fill-current'
-              points='2560 0 2560 100 0 100'
-            ></polygon>
-          </svg>
-        </div>
-
-        <div className='container mx-auto'>
-          <div className='flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10'>
-            <div className='w-full text-center lg:w-8/12'>
-              <h3 className='font-semibold text-3xl'>Want help out?</h3>
-              <p className='text-blueGray-500 text-lg leading-relaxed mt-4 mb-4'>
-                You can become a volunteer for Shack Dwellers and do your part
-                by improving the lives of less privelaged people. Click below to
-                contact us
-              </p>
-              <p className='text-blueGray-500 text-lg leading-relaxed mt-4 mb-4'>
-                We also accept sponsorship for our various activities. Click
-                below to contact us.
-              </p>
-              <div className='sm:block flex flex-col mt-10'>
-                <Link href={'/contact'}>
-                  <a className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
-                    Contact
-                  </a>
-                </Link>
-              </div>
-              <div className='text-center mt-16'></div>
             </div>
           </div>
         </div>

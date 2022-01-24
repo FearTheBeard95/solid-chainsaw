@@ -5,7 +5,11 @@ import { getDocuments } from '../../lib/documents';
 
 export default function Documents({ documents }) {
   return (
-    <Layout title={'Documents'} authenticated={true}>
+    <Layout
+      title={'Documents'}
+      authenticated={true}
+      image={'/gallery/planningstudio.jpg'}
+    >
       <section className='pb-20 bg-blueGray-200 -mt-24'>
         <br />
         <br />

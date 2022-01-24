@@ -7,7 +7,13 @@ import { userService } from '../services/user.service';
 import Navbar from '../components/Navbars/IndexNavbar';
 import FooterSmall from '../components/Footers/FooterSmall';
 
-export default function Main({ children, title, subtitle, authenticated }) {
+export default function Main({
+  children,
+  title,
+  subtitle,
+  authenticated,
+  image,
+}) {
   const [authorized, setAuthorized] = React.useState(false);
 
   React.useEffect(() => {
@@ -30,12 +36,12 @@ export default function Main({ children, title, subtitle, authenticated }) {
           <div
             className='absolute top-0 w-full h-full bg-center bg-cover'
             style={{
-              backgroundImage: "url('/logo.jpg')",
+              backgroundImage: `url('${image}')`,
             }}
           >
             <span
               id='blackOverlay'
-              className='w-full h-full absolute opacity-80 bg-black'
+              className='w-full h-full absolute opacity-50 bg-black'
             ></span>
           </div>
           <div className='container relative mx-auto'>

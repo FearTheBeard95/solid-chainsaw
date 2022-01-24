@@ -5,7 +5,11 @@ import Image from 'next/image';
 
 export default function Actitivies() {
   return (
-    <Layout title='Activities' subtitle='Our causes'>
+    <Layout
+      title='Activities'
+      subtitle='Our causes'
+      image={'/gallery/waterpump.jpg'}
+    >
       <section className='pb-20 bg-blueGray-200 -mt-24'>
         <br />
         <br />

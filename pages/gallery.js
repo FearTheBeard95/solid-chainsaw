@@ -6,7 +6,7 @@ import { getGallery } from '../lib/gallery';
 
 export default function gallery({ gallery }) {
   return (
-    <Layout title={'Gallery'}>
+    <Layout title={'Gallery'} image={'/gallery/learning.jpg'}>
       <section className='pb-20 bg-blueGray-200 -mt-24'>
         <br />
         <br />
