@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderStats from '../components/Headers/HeaderStats';
 import Layout from '../layouts/main';
 import Image from 'next/image';
 

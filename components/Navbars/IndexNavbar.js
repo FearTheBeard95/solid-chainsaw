@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { userService } from '../../services/user.service';
 // components
 
-import IndexDropdown from '../Dropdowns/IndexDropdown';
-
 export default function Navbar({ authenticated }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [authorized, setAuthorized] = React.useState(false);

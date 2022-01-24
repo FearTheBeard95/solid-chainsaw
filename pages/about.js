@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Layout from '../layouts/main';
 import Image from 'next/image';
 
