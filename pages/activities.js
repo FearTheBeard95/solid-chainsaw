@@ -18,13 +18,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/try.jpeg'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -34,7 +34,7 @@ export default function Actitivies() {
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
                 89% of the Namibian population does not qualify for conventional
-                home loans and connot access commercial housing. Community
+                home loans and cannot access commercial housing. Community
                 saving is the SDFN cornerstone to organize communities. This
                 contributes to the development of households participating in
                 the SDFN saving groups. Each group manages its own savings
@@ -49,13 +49,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/learning2.jpeg'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -65,11 +65,12 @@ export default function Actitivies() {
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
                 Awareness and skills needed to improve the living conditions of
-                the members are shared during local, national and international
-                exchanges. From these exchanges Namibian communities learned how
-                to save daily, collect information, map and plan settlements,
-                and most importantly communities in informal settlements have
-                realised they can do things for themselves.
+                the members of SDFN are shared during local, national and
+                international exchanges. From these exchanges Namibian
+                communities learned how to save daily, collect information, map
+                and plan settlements, and most importantly communities in
+                informal settlements have realized they can do things for
+                themselves.
               </p>
             </div>
           </div>
@@ -79,13 +80,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/planningStudio.jpeg'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -94,15 +95,15 @@ export default function Actitivies() {
                 3. CLIP (Profiling, Enumeration and Mapping)
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
-                The Community Land Information Program (CLIP) is a tool to be
-                used by informal settlement residents to better understand their
+                The Community Land Information Program (CLIP) is a tool used by
+                informal settlement residents to better understand their
                 communities, discuss their development priorities and negotiate
-                for better living conditions in settlements. The latest CLIP
-                numbers show that there are 282 informal settlements with
-                228,423 shacks accommodation about 950,000 people in Namibia.
-                This means more than 40% of Namibian’s overall population and
-                around 80% of its urban population is currently living in
-                shacks.
+                for better living conditions in settlements. Through CLIP
+                219,936 households were enumerated in informal settlements
+                across all urban areas in Namibia, with varying degrees of
+                services, tenure and shelter. This means more than 40% of
+                Namibian’s overall population and around 80% of its urban
+                population is currently living in shacks
               </p>
             </div>
           </div>
@@ -112,13 +113,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/upgrading.jpeg'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -131,11 +132,11 @@ export default function Actitivies() {
                 conditions in informal settlements. SDFN and NHAG are
                 Co-Initiators of the National Alliance for informal settlement
                 upgrading because the informal settlement emergency in Namibia
-                is of such scale, that not one stakeholder is able to adress it.
-                This Alliance is a partnership approach to scaling up security
-                of tenure and housing opportunities through co-production
-                between organised communities, local and regional authorities,
-                central government, and universitie
+                is of such scale, that not one stakeholder is able to address
+                it. This Alliance is a partnership approach to scaling up
+                security of tenure and housing opportunities through
+                co-production between organized communities, local and regional
+                authorities, central government, and universities.
               </p>
             </div>
           </div>
@@ -145,13 +146,14 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
-                  src='/fund.png'
-                  className='w-full align-middle rounded-t-lg'
+                  src='/pirechartreplace.jpg'
+                  className='w-full align-middle'
+                  layout='intrinsic'
                 />
               </div>
             </div>
@@ -160,11 +162,11 @@ export default function Actitivies() {
                 5. The Twahangana Fund
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
-                Since 1995 the Twahangana Fund channeled N$ 231.52 million to
-                the poor of Namibia. This community-managed revolving fund
-                provides micro loans to the members of SDFN savings groups for
-                land acquisition, servicing of land and house construction. This
-                fund serves as a tool for the very poor to access financial
+                Since 1995 the Twahangana Fund channeled N$ 263 million to the
+                housing groups of SDFN members. This community-managed revolving
+                fund provides micro loans to the members of SDFN savings groups
+                for land acquisition, servicing of land and house construction.
+                This fund serves as a tool for the very poor to access financial
                 support in a way that is not supported by official banking
                 instruments. Communities, the Government of Namibia and private
                 sector are contributing to the Twahangana Fund.
@@ -177,13 +179,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/construction.png'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -192,7 +194,7 @@ export default function Actitivies() {
                 6. House Construction and Services
               </h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600'>
-                6,234 houses have been completed by the members themselves.
+                Over 7,000 houses have been completed by the members themselves.
                 Members usually build two-room houses, comprising 34 square
                 meters at a cost of about N$1,060 per square meter. They also
                 install their water and sewer services when they get blocks of
@@ -207,13 +209,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/5.jpeg'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -229,7 +231,7 @@ export default function Actitivies() {
                 the private sector which includes the Buy-a-Brick Initiative of
                 Standard Bank Namibia, MTC/Huawei, Office of the First Lady,
                 FirstRand Namibia Foundation through RMB Namibia, the Pupkewitz
-                Foundation, Ohorongo Cement, Neo Paints, B2Gold.
+                Foundation, Ohorongo Cement, Neo Paints, B2Gold
               </p>
             </div>
           </div>
@@ -239,13 +241,13 @@ export default function Actitivies() {
 
           <div className='flex flex-wrap items-center mt-32'>
             <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
-              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700'>
+              <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg bg-blueGray-700'>
                 <Image
                   width={600}
                   height={400}
                   alt='...'
                   src='/covid.jpeg'
-                  className='w-full align-middle rounded-t-lg'
+                  className='w-full align-middle '
                 />
               </div>
             </div>
@@ -258,18 +260,15 @@ export default function Actitivies() {
                 especially SDFN youth members, successfully started backyard
                 gardens next to their housing/shacks during the beginning of the
                 COVID-19 pandemic. In most of these backyard gardens, they grow
-                their own vegetables all year round - mainly spinach, swiss
+                their own vegetables all year round - mainly spinach, Swiss
                 chard, beetroot, carrots, peppers, and tomatoes. Through
                 example, these gardens spread quickly as a very feasible
                 solution to overcome some of the challenges of the pandemic.
                 Some of the gardeners are even able to sell some of their
                 vegetables within their community or started small businesses to
-                sell seedlings and small portions of seeds. At a feedback
-                meeting in September 2021, the gardeners told NHAG that they are
-                eating much more vegetables since they have the gardens and that
-                it is a good feeling to always have food available. By September
-                2021 around ???? small backyard gardens had been created in many
-                informal settlements in cities like Windhoek, ??????
+                sell seedlings and small portions of seeds. The project’s
+                overall aim is to increase food and nutrition security during
+                and beyond COVID-19 in urban communities.
               </p>
             </div>
           </div>

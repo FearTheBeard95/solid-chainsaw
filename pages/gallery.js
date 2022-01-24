@@ -18,13 +18,14 @@ export default function gallery({ gallery }) {
                   <div className='w-full lg:w-4/12 px-4' key={image.name}>
                     <Link href={image.link}>
                       <a target={'_blank'}>
-                        <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
+                        <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg ease-linear transition-all duration-150'>
                           <Image
                             alt='...'
-                            className='align-middle border-none max-w-full h-auto rounded-lg'
+                            className='align-middle border-none max-w-full h-auto'
                             src={image.link}
-                            height={450}
-                            width={600}
+                            height={1000}
+                            width={1300}
+                            layout='intrinsic'
                           />
                         </div>
                       </a>
