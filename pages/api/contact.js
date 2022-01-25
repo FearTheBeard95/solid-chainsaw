@@ -14,7 +14,7 @@ export default function handler(req, res) {
   mail
     .send({
       to: 'sibalatanics@outlook.com',
-      from: 'from.name@shackdwellers.com',
+      from: 'admin@shackdwellersnamibia.com',
       subject: 'New Message from shackdwellers site!',
       text: message,
       html: message.replace(/\r\n/g, '<br>'),
