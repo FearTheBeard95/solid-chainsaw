@@ -153,6 +153,52 @@ export default function Index() {
                         themselves as an organization, to pay tuition fees and
                         to do youth projects.
                       </p>
+                      <br />
+                      <p className='mb-7 text-blueGray-500'>
+                        SDFN Youth also took the lead on and enjoyed
+                        implementing the Know your City TV (KYCTV) Project,
+                        funded by Shack/ Slum Dwellers International (SDI).
+                        KYCTV is a call to action within the SDI ``Know your
+                        City Campaign” for cities in different countries to know
+                        their people, know the poverty and plight of the poorest
+                        and work together to bring about an end to poverty in
+                        our world{"'"}s cities. They documented different SDFN
+                        projects across the country, from informal settlement
+                        upgrading to housing construction. The youth
+                        participated in international training sessions with
+                        SDI, on editing and filming. The youth also used their
+                        filming excursions as an opportunity to train other
+                        community members, exchange knowledge, and improve their
+                        skills.
+                      </p>
+                      <br />
+                      <p className='mb-7 text-blueGray-500'>
+                        Click on any of the links below to view their work.
+                      </p>
+                      <p className='mb-7 text-blueGray-700'>
+                        <li>
+                          <a
+                            className='hover:text-blueGray-500'
+                            href='https://www.youtube.com/channel/UCEH61JBwtJlVtyPWql19FRA'
+                            target='_blank'
+                            rel='noreferrer'
+                          >
+                            Know your City TV (KYCTV){' '}
+                            <i className='text-blueGray-400 fab fa-youtube' />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className='hover:text-blueGray-500'
+                            href='https://www.cohabitat.io/en/partners/329d1e95-801d-4954-9ebf-2cfd74750727'
+                            target='_blank'
+                            rel='noreferrer'
+                          >
+                            Know your City TV (KYCTV){' '}
+                            <i className='text-blueGray-400 fas fa-newspaper' />
+                          </a>
+                        </li>
+                      </p>
                     </div>
                   </div>
                 </div>
